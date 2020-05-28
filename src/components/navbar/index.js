@@ -1,6 +1,6 @@
 import React from 'react'
 import "./style.css"
-import { NavLink, Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 //import { Link } from 'react-router-dom';
 import { Nav, Navbar } from 'react-bootstrap';
 
@@ -19,8 +19,8 @@ export default function NavBar(props) {
                 <ul className="nav navbar-nav d-flex justify-content-center">
                   <li className="nav-item">
                     <Nav.Item>
-                      <Nav.Link eventKey="1" as={Link} to="/homepage">
-                        HOME
+                      <Nav.Link eventKey="1" as={Link} to="/aboutme">
+                        ABOUT ME
                      </Nav.Link>
                     </Nav.Item>
                   </li>
@@ -34,8 +34,8 @@ export default function NavBar(props) {
 
                   <li className="nav-item">
                     <Nav.Item>
-                      <Nav.Link eventKey="3" as={Link} to="/aboutme">
-                        ABOUT ME
+                      <Nav.Link eventKey="3" as={Link} to="/experience">
+                        EXPERIENCE
                       </Nav.Link>
                     </Nav.Item>
                   </li>

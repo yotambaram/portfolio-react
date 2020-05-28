@@ -8,7 +8,7 @@ export default function HomePage() {
     <div id="home">
       <div className='row'>
         <div className='col-12 col-md-12 border-dark backgraund-test' id='home-cover-color'>
-          <img src={require('../../public/jpg/yotam2.jpg')} alt="profile picture" id='home-profile-pic' className='img-thumbnail position-absolute' />
+          <img src={require('../../public/jpg/yotam2.jpg')} alt="profilepic" id='home-profile-pic' className='img-thumbnail position-absolute' value="propic"/>
         </div>
       </div>
       <div className='row'>
