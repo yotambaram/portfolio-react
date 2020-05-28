@@ -15,7 +15,7 @@ function App() {
     <Router>
       <div className="App">
         <NavBar />  
-          <div className='container border-dark shadow bg-white rounded ' id="containerID">
+          <div className='container border-dark shadow bg-white rounded d-flex justify-content-center' id="containerID">
           <Switch>
           <Route exact path="/">
               <HomePage />

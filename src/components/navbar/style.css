@@ -205,7 +205,9 @@ html {
     
 }
 
-
+#navfluid{
+    display: inline-block;
+}
 
 
 #right-card-one{

@@ -1,6 +1,8 @@
 import React from 'react'
 import "./style.css"
-import { NavLink } from 'react-router-dom'
+import { NavLink, Link } from 'react-router-dom'
+//import { Link } from 'react-router-dom';
+import { Nav, Navbar } from 'react-bootstrap';
 
 export default function NavBar(props) {
   //const menu = ["homeBtn", "portfolioBtn", "aboutMe"]
@@ -8,25 +10,44 @@ export default function NavBar(props) {
 
   return (
     <header className="App-header">
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-     
-        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav-1" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse justify-content-center" id="navbarNav-1">
-          <ul className="navbar-nav">
-            <li className="nav-item">
-              <NavLink to="/homepage" className="main-nav nav-item nav-link" activeClassName="main-nav-active">HOME<span className="sr-only">(current)</span></NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink to="/projects" className="main-nav nav-item nav-link" activeClassName="main-nav-active">PROJECTS</NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink to="/aboutme" className="main-nav nav-item nav-link" activeClassName="main-nav-active">ABOUT ME </NavLink>
-            </li>
-          </ul>
-        </div>
-      </nav>
+      <Navbar collapseOnSelect expand="lg">
+        <Navbar.Toggle />
+        <Navbar.Collapse>
+          <Nav className="mr-auto d-block">
+            <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" role="navigation">
+              <div class="container-fluid" id="navfluid">
+                <ul className="nav navbar-nav d-flex justify-content-center">
+                  <li className="nav-item">
+                    <Nav.Item>
+                      <Nav.Link eventKey="1" as={Link} to="/homepage">
+                        HOME
+                     </Nav.Link>
+                    </Nav.Item>
+                  </li>
+                  <li className="nav-item">
+                    <Nav.Item>
+                      <Nav.Link eventKey="2" as={Link} to="/projects">
+                        PROJECTS
+                      </Nav.Link>
+                    </Nav.Item>
+                  </li>
+
+                  <li className="nav-item">
+                    <Nav.Item>
+                      <Nav.Link eventKey="3" as={Link} to="/aboutme">
+                        ABOUT ME
+                      </Nav.Link>
+                    </Nav.Item>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </Nav>
+        </Navbar.Collapse>
+      </Navbar>
+
+
+
     </header>
   )
 }
