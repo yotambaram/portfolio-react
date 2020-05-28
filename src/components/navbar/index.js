@@ -15,7 +15,7 @@ export default function NavBar(props) {
         <Navbar.Collapse>
           <Nav className="mr-auto d-block">
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" role="navigation">
-              <div class="container-fluid" id="navfluid">
+              <div className="container-fluid" id="navfluid">
                 <ul className="nav navbar-nav d-flex justify-content-center">
                   <li className="nav-item">
                     <Nav.Item>
