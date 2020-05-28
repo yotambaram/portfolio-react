@@ -1,0 +1,232 @@
+html {
+    min-height: 100%;
+  }
+  
+  body {
+    min-height: 100vh;
+    
+  }
+
+
+.container {
+    min-height: 100vh;
+    margin-top: 6%;
+    background-color: rgb(49, 49, 192);
+   
+}
+
+
+
+.hide{
+    display: none;
+}
+
+
+
+#id-holder{
+    height: 4rem;
+    margin-top: 3%;
+    background-color: rgb(170, 170, 170);
+    
+}
+
+
+#home-profile-pic{
+    margin: 4rem;
+    max-width: 20rem;
+}
+
+#home-id-card-style{
+    height: 30%;
+    margin-top: 3%;
+    background-color: rgb(170, 170, 170);
+}
+
+#all-content-holder{
+    height: 100%;
+    background-color: rgb(170, 170, 170);
+
+}
+#all-content-holder{
+    height: 100%;
+
+}
+
+#id-card-style{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+
+#contant-style{
+    border: 1px black;
+    height: 100%; 
+
+}
+
+#profile-pic{
+    margin: 33% auto;
+}
+
+
+#navbar-nav{
+    margin: 0 auto;
+    
+}
+
+.nav-item{
+    margin: 1rem 2rem;
+    
+}
+
+
+
+#head-line{
+    margin-top: 1rem;
+    width: 90%;
+}
+
+
+
+.contant-one{
+    margin-top: 1rem;
+}
+
+
+
+#about-me-holder{
+    margin-top: -1.5rem;
+ 
+ }
+
+#home-container{
+    background-color: white;
+    border: 1px solid black;
+   
+}
+
+
+@media (max-width: 720px) {
+    #id-card-holder{
+        display: none;
+        
+        
+    }
+  
+
+    #project-one{
+        margin-top: 3rem;
+        height: 100%;
+    }
+    
+    #project-two{
+        margin-top: 0rem;
+        height: 100%;
+    }
+
+
+
+    .extra-cantant{
+        display: none;
+    }
+    #home-profile-pic{
+        width: 60%;
+        margin: 4rem auto;
+    }
+        
+    #form-holder{
+        margin-top: 3rem;
+        height: 120%;
+    }
+    #about-me-holder{
+        margin-top: 3rem;
+        height: 100%;
+     
+     }
+
+
+
+}
+
+
+
+#home-cover-color{
+    height: 13rem;
+    background-color: rgb(170, 170, 170);
+    width: 100%;
+}
+
+
+.full-width{
+    width: 100%;
+
+}
+
+.border{
+    border: 1px black;
+}
+
+.backgraund-test{
+    background-color: rgb(204, 39, 39);
+
+}
+
+.gen-red{
+    background-color: rgb(170, 170, 170);
+
+}
+#home-contant{
+    min-height: 100vh;
+    padding: 15% 0 0 6%;
+    
+    
+}
+
+
+
+#home-place-holder{
+    height: 13rem;
+    
+}
+
+
+#submit-btn{
+    background-color: rgb(170, 170, 170);
+}
+
+.bold-text{
+    font-weight: 600
+}
+
+
+
+#id-card {
+    position: fixed;
+    margin: 1rem 0.5rem;
+    width: 13%;
+    height: 35rem;
+    
+    
+}
+
+
+
+
+#right-card-one{
+    position: fixed;
+    height: 16rem;
+    width: 8%;
+}
+
+#right-card-two{
+    margin-top: 18rem;
+    position: fixed;
+    height: 18rem;
+    width: 8%;
+}
+
+
+#head-line-content{
+    text-align: center;
+}
