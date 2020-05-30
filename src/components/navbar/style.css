@@ -82,7 +82,7 @@ html {
 }
 
 .nav-item{
-    margin: 1rem 2rem;
+ 
     
 }
 
@@ -146,6 +146,9 @@ html {
      }
 
 
+    
+
+
 
 }
 
@@ -179,11 +182,6 @@ html {
 
 
 
-
-#home-place-holder{
-    height: 13rem;
-    
-}
 
 
 #submit-btn{
@@ -227,5 +225,4 @@ html {
 #head-line-content{
     text-align: center;
 }
-
 

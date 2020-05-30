@@ -74,10 +74,6 @@ body {
   
 }
 
-.nav-item{
-  margin: 1rem 2rem;
-  
-}
 
 
 
@@ -181,17 +177,11 @@ body {
   background-color: rgb(170, 170, 170);
 
 }
-#home-contant{
-  min-height: 100vh;
-  padding: 15% 0 0 6%;
-  
-  
-}
 
 
 
 #home-place-holder{
-  height: 13rem;
+  height: 12rem;
   
 }
 

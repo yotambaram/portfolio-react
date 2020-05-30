@@ -10,10 +10,7 @@ html {
 .hide{
     display: none;
 }
-#id-card-holder{
-    margin-top: 5px;
 
-}
 
 
 #id-holder{
@@ -141,6 +138,8 @@ html {
 
 
 
+
+
 }
 
 
@@ -174,8 +173,8 @@ html {
 
 
 
-#home-place-holder{
-    height: 13rem;
+#-holder{
+    height: 6rem;
     
 }
 
@@ -219,3 +218,4 @@ html {
 #head-line-content{
     text-align: center;
 }
+
