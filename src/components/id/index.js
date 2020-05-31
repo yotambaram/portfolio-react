@@ -3,8 +3,8 @@ import "./style.css"
 
 export default function Id() {
   return (
-      <div className='card border-dark mb-3 shadow mb-5 bg-white rounded img-thumbnail' id='id-card'>
-        <img src={require('../../public/jpg/yotam2.jpg')} className='card-img-top border' alt='profilepic' id="" value="propic" />
+      <div className='card border-dark shadow bg-white rounded img-thumbnail' id='id-card'>
+        <img src={require('../../public/jpg/yotam2.jpg')} className='card-img-top border' alt='profilepic' value="propic" />
         <div className="card-body">
           <div className="card-text">
             <h3>Yotam Baram</h3>

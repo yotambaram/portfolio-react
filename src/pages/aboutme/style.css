@@ -23,24 +23,11 @@ html {
 
 
 
-#id-holder{
-    height: 4rem;
-    margin-top: 3%;
-    background-color: rgb(170, 170, 170);
-    
-}
-
-
 #home-profile-pic{
     margin: 4rem;
     max-width: 20rem;
 }
 
-#home-id-card-style{
-    height: 30%;
-    margin-top: 3%;
-    background-color: rgb(170, 170, 170);
-}
 
 #all-content-holder{
     height: 100%;
@@ -52,12 +39,7 @@ html {
 
 }
 
-#id-card-style{
-    height: 100%;
-    display: flex;
-    align-items: center;
-    
-}
+
 
 #contant-style{
     border: 1px black;
@@ -200,14 +182,7 @@ html {
 
 
 
-#id-card {
-    position: fixed;
-    margin: 1rem 0.5rem;
-    width: 13%;
-    height: 35rem;
-    
-    
-}
+
 
 
 
@@ -219,9 +194,9 @@ html {
 }
 
 #right-card-two{
-    margin-top: 18rem;
+    margin-top: 16.5rem;
     position: fixed;
-    height: 18rem;
+    height: 15.5rem;
     width: 8%;
 }
 
