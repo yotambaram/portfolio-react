@@ -7,10 +7,10 @@ export default function Id() {
         <img src={require('../../public/jpg/yotam2.jpg')} className='card-img-top border' alt='profilepic' id="" value="propic" />
         <div className="card-body">
           <div className="card-text">
-            <h3><strong>Yotam Baram</strong></h3>
-            <a><strong>Full Stack Developer</strong></a><br />
-            <a><strong>what else? $%$</strong></a><br />
-            <a className="small-gray">Bellevue, WA USA</a><br />
+            <h3>Yotam Baram</h3>
+            <strong>Full Stack Developer</strong><br /><br />
+            <h6 className="small-gray">yotambaram@gmail.com</h6>
+            <h6 className="small-gray">Bellevue, WA USA</h6><br />
           </div>
         </div>
       </div>
