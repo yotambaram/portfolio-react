@@ -33,7 +33,7 @@ export default function ExperienceCard() {
           <a className="card-text"><strong>The Israeli Sports Channel | Executive Producer and Content Editor</strong><br />
             <a className="card-text text-secondary"><small>Tel Aviv Israel 2009-2014</small> </a><br />
           </a>
-          <a className="card-text">Explore and create content items and directing VTR for TV shows end to end in real time.<a className="card-text">Produce and edit live broadcasts, perform real-time decision making.</a></a>
+          <a className="card-text">Explore and create content items and directing VTR for TV shows end to end in real time.<br />Produce and edit live broadcasts, perform real-time decision making.</a>
         </div>
       </div>
       <div className='card border-dark mb-8 shadow mt-2 bg-white rounded img-thumbnail'>

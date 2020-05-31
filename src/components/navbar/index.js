@@ -1,7 +1,6 @@
 import React from 'react'
 import "./style.css"
 import { Link } from 'react-router-dom'
-//import { Link } from 'react-router-dom';
 import { Nav, Navbar } from 'react-bootstrap';
 
 export default function NavBar(props) {
@@ -35,7 +34,7 @@ export default function NavBar(props) {
                   <li className="nav-item">
                     <Nav.Item>
                       <Nav.Link eventKey="3" as={Link} to="/experience">
-                        EXPERIENCE
+                        EXPERTISE
                       </Nav.Link>
                     </Nav.Item>
                   </li>
