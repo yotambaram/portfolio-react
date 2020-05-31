@@ -74,7 +74,10 @@ body {
   
 }
 
-
+.nonliststyle{
+  list-style: none;
+  padding: 0;
+}
 
 
 #head-line{

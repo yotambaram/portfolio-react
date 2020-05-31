@@ -12,7 +12,7 @@ export default function NavBar(props) {
       <Navbar collapseOnSelect expand="lg">
         <Navbar.Toggle />
         <Navbar.Collapse>
-          <Nav className="mr-auto d-block">
+          <Nav className="mr-auto d-block navbar-dark">
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" role="navigation">
               <div className="container-fluid" id="navfluid">
                 <ul className="nav navbar-nav d-flex justify-content-center">

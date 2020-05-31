@@ -105,15 +105,7 @@ html {
 
     }
 
-    #project-one{
-        margin-top: 3rem;
-        height: 100%;
-    }
-    
-    #project-two{
-        margin-top: 0rem;
-        height: 100%;
-    }
+
 
 
 
@@ -125,10 +117,7 @@ html {
         margin: 4rem auto;
     }
         
-    #form-holder{
-        margin-top: 3rem;
-        height: 120%;
-    }
+
     #about-me-holder{
         margin-top: 3rem;
         height: 100%;
@@ -167,7 +156,9 @@ html {
 
 }
 
-
+.card-high{
+    height: 777px;
+}
 
 
 
@@ -186,7 +177,7 @@ html {
     position: fixed;
     margin: 1rem 0.5rem;
     width: 13%;
-    height: 35rem;
+    height: 30rem;
     
     
 }
