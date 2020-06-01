@@ -9,10 +9,10 @@ export default function NavBar(props) {
 
   return (
     <header className="App-header">
-      <Navbar collapseOnSelect expand="lg">
+      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Navbar.Toggle />
         <Navbar.Collapse>
-          <Nav className="mr-auto d-block navbar-dark">
+          <Nav className="mr-auto d-block">
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" role="navigation">
               <div className="container-fluid" id="navfluid">
                 <ul className="nav navbar-nav d-flex justify-content-center">

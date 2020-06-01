@@ -16,12 +16,12 @@ export default function HomePage() {
         <div className='col-12  col-lg-5 col-xl-4' id='home-place-holder'></div>
         <div className=' col-12 col-lg-6 col-xl-6 border-dark' id='home-content'>
           <div>
-            <h1>Yotam Baram</h1>
+            <h2>Yotam Baram</h2>
           </div>
 
-          <h3>Full Stack Developer</h3><br />
+          <h5>Full Stack Developer</h5><br />
           <ul className = "nonliststyle">
-            <li><h5 >ABOUT ME</h5>
+            <li><h6>ABOUT ME</h6>
                 10 years experience in broadcast and commercial production as an executive producer and content editor for various tv channels. Pre and post production; live remote production.
                 I’ve played key roles in creating high exposure content and producing major events.
                 <br />
@@ -30,7 +30,7 @@ export default function HomePage() {
                 Since our move, I’ve been dedicated and targeted to gain knowledge, learning and developing my skills as a full stack developer. I’ve learnt independently and also completed successfully formal crossovers (certificates).
                 Now I’m ready to take it to the next level and leverage the knowledge and experience I gained at my next role.
               </li><br />
-            <li><h5>PERSONAL LIFE</h5>
+            <li><h6>PERSONAL LIFE</h6>
                 From Israel, relocated to US with my family in march 2019.
                 Married to Ayelet and father to Adam (5) and Eleanor (2).
                 We love to spend family time together, travel around mainly in nature.
@@ -39,7 +39,7 @@ export default function HomePage() {
 
 
 
-            <h5>CAREER PATH</h5>
+            <h6>CAREER PATH</h6>
             <ul>
               <li><bold>Television playout operator</bold>, MX1 Satellite services,  <small>2018-2019</small></li>
               <li><bold>Senior News Content Editor</bold>, Entertainment Channel, <small>2014-2017</small></li>
@@ -48,7 +48,7 @@ export default function HomePage() {
             </ul>
             <br />
 
-            <h5>I'M GOOD AT</h5>
+            <h6>I'M GOOD AT</h6>
             <ul>
               <li>Planning & driving schedule</li>
               <li> Results-oriented go-getter</li>

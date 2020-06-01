@@ -5,9 +5,16 @@ export default function ExperienceCard() {
 
   return (
     <div className="col-12 col-md-7 border-dark" id='about-me-holder full-width margin-fix'>
+       <div className='card border-dark mb-8 mb-2 shadow mt-1.5 bg-white rounded img-thumbnail'>
+        <div className='card-header border-dark gen-red bold-text text-center'>
+          <h5 className = "sub">EXPERTISE</h5>
+        </div>
+        
+      </div>
+
       <div className='card border-dark mb-8 shadow mt-1.5 bg-white rounded img-thumbnail'>
         <div className='card-header border-dark gen-red bold-text text-center'>
-          <h3 className = "sub">FULL STACK WEB DEVELOPER</h3>
+          <h6 className = "sub">FULL STACK WEB DEVELOPER</h6>
         </div>
         <div className="card-body">
           <span className="card-text">Intuitive user experiences; passionate about developing apps that help people solve everyday problems; approaching programming challenges from different perspectives; developing responsive websites; finding unique perspectives on how end-users interact with websites; mobile-first design, and development; collaborating with a team to address UX/UI problems; complex problem solving; responsive design; addressing accessibility issues; quality and performance testing; agile development; server-side development.</span>
@@ -15,7 +22,7 @@ export default function ExperienceCard() {
       </div>
       <div className='card border-dark mb-8 shadow mt-2 bg-white rounded img-thumbnail'>
         <div className='card-header border-dark gen-red bold-text text-center'>
-          <h3 className = "sub">WORK EXPERIENCE</h3>
+          <h6 className = "sub">WORK EXPERIENCE</h6>
         </div>
         <div className="card-body">
           <h6 className="card-text"><strong>MX1 Satellite services  | Television playout operator </strong><br />
@@ -38,7 +45,7 @@ export default function ExperienceCard() {
       </div>
       <div className='card border-dark mb-8 shadow mt-2 bg-white rounded img-thumbnail'>
         <div className='card-header border-dark gen-red bold-text text-center'>
-          <h3 className = "sub">TECHNICAL TOOLS</h3>
+          <h6 className = "sub">TECHNICAL TOOLS</h6>
         </div>
         <div className="card-body text-center">
           <span className="card-text ">HTML | CSS | JavaScript | jQuery | Responsive Design | Bootstrap | Handlebars | Cookies, Local Storage | React.js | Node.js |Express | Security and Session Storage | User Authentication | MERN Stack | MySQL | MongoDB | Git | Adobe Premiere Pro | Final Cut Pro</span>
@@ -49,7 +56,7 @@ export default function ExperienceCard() {
 
       <div className='card border-dark mb-8 shadow mt-2 bg-white rounded img-thumbnail'>
         <div className='card-header border-dark gen-red bold-text text-center'>
-          <h3 className = "sub">LINKS</h3>
+          <h6 className = "sub">LINKS</h6>
         </div>
         <div className="card-body text-center">
           <ul className = "nonliststyle">

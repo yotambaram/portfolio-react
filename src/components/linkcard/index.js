@@ -9,7 +9,7 @@ export default function LinkCard() {
           id='right-card-two'>
           <img src={require('../../public/jpg/linkedin.png')} className='card-img-top border' alt='linkedin' />
           <div className="card-body">
-            <p className="card-text center-content"><a href="https://www.linkedin.com/in/yotambaram" value="linkedin" target="_blank" title="Yotams linkedin"> Visit My Linkedin</a></p>
+            <p className="card-text center-content"><a href="https://linkedin.com/in/yotambaram" value="linkedin" target="_blank" title="Yotams linkedin"> Visit My Linkedin</a></p>
           </div>
         </div>
       </div>
