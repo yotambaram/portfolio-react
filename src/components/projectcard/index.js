@@ -38,7 +38,7 @@ export default function ProjectCard(props) {
     console.log(project.name,"lnk",lnk)
     return(
     <small className="text-muted">
-    <Card.Link href="https://yoututor2020.herokuapp.com" target="_blank">{lnk.linkName}</Card.Link>
+    <Card.Link href={lnk.link} target="_blank">{lnk.linkName}</Card.Link>
     </small>)
   })}
   </Card.Body>
