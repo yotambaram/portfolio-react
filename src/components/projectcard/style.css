@@ -29,5 +29,12 @@
 .id-box{
     margin-top: 10px;
 }
-    
 
+.list-group-item {
+    border: none;
+}
+    
+.project-card-holder {
+    margin-top: 1rem;
+    width: 100%;
+}
