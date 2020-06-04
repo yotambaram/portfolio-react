@@ -3,25 +3,24 @@ import "./style.css"
 import Id from '../../components/id';
 import LinkCard from '../../components/linkcard';
 import ProjectCard from '../../components/projectcard';
+import { Row, Col } from 'react-bootstrap';
 
 
-export default function Projects() {
+export default function Projects(props) {
   return (
     <div id="progects">
-      <div id="content" >
-        <div className="row">
-          <div className="col-12 col-md-3 border-dark" id="id-card-holder">
+        <Row>
+          <Col md={3} id="id-card-holder">
             <Id />
-          </div>
-          <div className="col-12 col-md-7 border-dark" id='head-line'>
-
-          </div>
-          <div className="col-12 col-md-2 border-dark contant-one">
+          </Col>
+          <Col md={7} id="id-card-holder">
+           <ProjectCard myProjects={props.myProjects} /> 
+          </Col>
+          <Col md={2}> id="id='head-line'">
             <LinkCard />
-          </div>
-        </div>
-        <ProjectCard />
-      </div>
+          </Col>
+        </Row>
+        
     </div>
   )
 }

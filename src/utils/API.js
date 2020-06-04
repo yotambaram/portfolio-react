@@ -1,4 +1,4 @@
-const myInfo = {
+export const myInfo = {
   me: {
     name: "Yotam Baram",
     title: "Full Stack Developer",
@@ -54,33 +54,68 @@ const myInfo = {
     {    
     name: "Find Tutor",
     description:`A social network that allows you to choose skills you need help to learn and find tutor or with skills you are good on and can be a tutor, you can find the learning people who needs help`,
-    links: ["https://github.com/OlgaSadova/FinalProject", "https://github.com/OlgaSadova/FinalProjectBackEnd", "https://yoututor2020.herokuapp.com"]
-   
+    picture: `findtutor.JPG`,
+    links: [
+      {
+        link: "https://yoututor2020.herokuapp.com",
+        linkName: "Find A Tutor Web"
+      },
+      {
+        link:"https://github.com/OlgaSadova/FinalProjectBackEnd",
+        linkName: "GitHub Frontend"
+      },
+      {
+        link:"https://yoututor2020.herokuapp.com",
+        linkName: "GitHub Backend"
+      }
+    ]
     },
-    {
+  {
       name: "Flixlists",
       description:`Full stack web application that allows users to search the Open Movie Database for information about films and to keep lists of their favorite ones. Each user his her own login and password and her lists are stored persistently in a MySql database.`,
-      links: ["https://flixlists.herokuapp.com", "https://github.com/OlgaSadova/FinalProjectBackEnd", "https://github.com/OlgaSadova/FinalProject"]
+      picture: "flixlists.JPG",
+      links: [
+        {
+          link: "https://flixlists.herokuapp.com",
+          linkName: "flixlists Web",
+        },
+        {
+         link: "https://github.com/yotambaram/Flixlists",
+         linkName: "GitHub"
+        }
+      ]
     },
     {
       name: "Weather Dashboard",
       description:`The weather app is simple, accessible and easy to use. Receives the weather API details and passes them to a site visitor based on their location or location searched for Fahrenheit or Celsius of your choice.`,
-      links: ["https://yotambaram.github.io/Weather-Dashboard/"]
+      picture: "weather-deshboard.JPG",
+      links: [
+        {
+          link:"https://yotambaram.github.io/Weather-Dashboard",
+          linkName: "Weather Dashboard Web"
+          },
+          {
+            link:"https://github.com/yotambaram/Weather-Dashboar",
+            linkName: "GitHab"
+          }
+      ]
     },
     {
       name: "Finder",
       description: `My first project in code studies, a month after I started. Not a project that showcases its capabilities but it is my first "product" and has sentimental value to me. The app lets you choose a place to eat by picture. The user's location information and entertainment content come from two third-party APIs.`,
-      links: ["https://yotambaram.github.io/Weather-Dashboard/"]
+      picture: "finder.JPG",
+      links: [
+        {
+        link:"https://commiewalker.github.io/Findr",
+        linkName: "Findr Web"
+        },
+        {
+          link:"https://github.com/commiewalker/Findr",
+          linkName: "GitHab"
+        }
+      ]
     }
   ]
 
 }
 
-const API = {
-    getMyData:function(){
-        return myInfo
-    },
- 
-
-}
-export default API

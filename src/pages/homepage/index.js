@@ -41,9 +41,9 @@ export default function HomePage() {
 
             <h6>CAREER PATH</h6>
             <ul>
-              <li><bold>Television playout operator</bold>, MX1 Satellite services,  <small>2018-2019</small></li>
-              <li><bold>Senior News Content Editor</bold>, Entertainment Channel, <small>2014-2017</small></li>
-              <li><bold>Executive Producer and Content Editor</bold>, The Israeli Sports Channel, <small>2009-2014</small></li>
+              <li><strong>Television playout operator</strong>, MX1 Satellite services,  <small>2018-2019</small></li>
+              <li><strong>Senior News Content Editor</strong>, Entertainment Channel, <small>2014-2017</small></li>
+              <li><strong>Executive Producer and Content Editor</strong>, The Israeli Sports Channel, <small>2009-2014</small></li>
               <Link to={`/experience`} className="expertise" ><small>My Expertise Page</small></Link>
             </ul>
             <br />

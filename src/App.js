@@ -6,7 +6,7 @@ import Projects from './pages/projects';
 import HomePage from './pages/homepage';
 import AboutMe from './pages/aboutme';
 import NavBar from './components/navbar';
-
+import {myInfo} from './utils/API';
 
 
 
@@ -25,7 +25,7 @@ function App() {
               <HomePage />
              </Route>
             <Route exact path="/projects">
-              <Projects />
+              <Projects myProjects={myInfo.projects}/>
              </Route>
             <Route exact path="/experience">
               <AboutMe />

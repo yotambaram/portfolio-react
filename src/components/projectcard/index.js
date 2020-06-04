@@ -1,23 +1,102 @@
 import React from 'react'
 import "./style.css"
-//import { Link } from 'react-router-dom'
+import { Row, Card, CardColumns } from 'react-bootstrap';
 
 
-export default function ProjectCard() {
+export default function ProjectCard(props) {
+
+  console.log("props", props.myProjects[0])
+  const projects = props.myProjects
 
   return (
+
     <div>
+      <Row>
+        <div className="col-12 border-dark" id="Flixlists-card-holder">
+          <div className='card border-dark mb-8 mb-2 shadow mt-1.5 bg-white rounded img-thumbnail'>
+            <div className='card-header border-dark gen-red bold-text text-center'>
+              <h5 className="sub">PROJECTS</h5>
+            </div>
+          </div>
+        </div>
+      </Row>
+
+<ul className="list-group">
+      {projects.map(project => (
+        <li className="list-group-item" key={project.name}>
+          <Card style={{ width: '100%' }}>
+  <Card.Img variant="top" src={require(`../../public/jpg/${project.picture}`)} />
+  <Card.Body>
+    <Card.Title>{project.name}</Card.Title>
+    <Card.Text>
+      {project.description}
+    </Card.Text>
+  </Card.Body>
+  
+  <Card.Body >
+  {project.links.map(lnk => {
+    console.log(project.name,"lnk",lnk)
+    return(
+    <small className="text-muted">
+    <Card.Link href="https://yoututor2020.herokuapp.com" target="_blank">{lnk.linkName}</Card.Link>
+    </small>)
+  })}
+  </Card.Body>
+    
+</Card>
+
+      <Card className="card card border-dark shadow mb-2 bg-white rounded img-thumbnail">
+        <a href="https://yoututor2020.herokuapp.com" target="_blank" title="project on" rel="noopener noreferrer" value="yoututorheroku2" rel="noopener noreferrer">
+          <img src={require('../../public/jpg/findtutor.JPG')} variant="top" className="full-width border" alt="flixlists" />
+        </a>
+        <div className="card-body">
+          <h5 className="card-title">Find Tutor - hard</h5>
+          <span className="card-text">A social network that allows you to choose skills you need help to learn and find tutor or with skills you are good on and can be a tutor, you can find the learning people who needs help</span><br />
+          <small className="text-muted">
+            <a href={"https://yoututor2020.herokuapp.com"} value="yoututorheroku" target={"_blank"} rel="noopener noreferrer">Find A Tutor Web</a>
+            <a href={"https://github.com/OlgaSadova/FinalProject"} value="yoututorgithubfront" target={"_blank"} rel="noopener noreferrer"> | GitHub Frontend </a>
+            <a href={"https://github.com/OlgaSadova/FinalProjectBackEnd"} value="yoututorgithubback" target={"_blank"} rel="noopener noreferrer"> | GitHub Backend </a>
+          </small>
+        </div>
+      </Card>
+        </li>
+      ))}
+    </ul>
+
+
+
+
+
+
+
+
+
+      
+
+    </div>
+
+
+
+
+  )
+}
+
+
+
+
+/*
+<div>
       <div className="row">
         <div className="col-12 col-md-3 border-dark" id="Flixlists-card-holder">
         </div>
         <div className="col-12 col-md-7 border-dark port-card">
-        
-        
+
+
         <div className='card border-dark mb-8 mb-2 shadow mt-1.5 bg-white rounded img-thumbnail'>
         <div className='card-header border-dark gen-red bold-text text-center'>
           <h5 className = "sub">PROJECTS</h5>
         </div>
-        
+
       </div>
 
 
@@ -108,5 +187,4 @@ export default function ProjectCard() {
         </div>
       </div>
     </div>
-  )
-}
+    */

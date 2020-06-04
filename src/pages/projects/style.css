@@ -86,12 +86,8 @@ html {
 }
 
 
-@media (max-width: 720px) {
-    #id-card-holder{
-        display: none;
-        
-        
-    }
+@media (max-width: 900px) {
+ 
   
 
     #project-one{

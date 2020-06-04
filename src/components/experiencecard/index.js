@@ -2,7 +2,6 @@ import React from 'react'
 import "./style.css"
 
 export default function ExperienceCard() {
-
   return (
     <div className="col-12 col-md-7 border-dark" id='about-me-holder full-width margin-fix'>
        <div className='card border-dark mb-8 mb-2 shadow mt-1.5 bg-white rounded img-thumbnail'>
