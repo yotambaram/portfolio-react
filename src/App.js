@@ -37,7 +37,7 @@ function App() {
             </Route>
           </Switch>
         </Col>
-        <Col md={2} className="side-link">
+        <Col md={2} className="links-card-holder">
            <LinkCard myInfo={myInfo.info}/>
           </Col>
         </Row>

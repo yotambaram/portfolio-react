@@ -3,7 +3,7 @@ import "./style.css"
 
 export default function ExperienceCard() {
   return (
-    <div className="col-12 col-md-7 border-dark" id='about-me-holder full-width margin-fix'>
+    <div className="col-12 col-md-12 border-dark" id='about-me-holder full-width margin-fix'>
        <div className='card border-dark mb-8 mb-2 shadow mt-1.5 bg-white rounded img-thumbnail'>
         <div className='card-header border-dark gen-red bold-text text-center'>
           <h5 className = "sub">EXPERTISE</h5>

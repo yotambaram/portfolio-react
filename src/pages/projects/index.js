@@ -8,8 +8,8 @@ import { Row, Col, Card } from 'react-bootstrap';
 
 export default function Projects(props) {
   return (
-        <Row id="progects">
-      <Col md={9} className = "contant">
+      <Row id="progects">
+      <Col md={12} className = "contant">
         <Card className = "project-card-holder">
           <Card.Body>
             <Card.Title><h5 className="sub">PROJECTS</h5></Card.Title>

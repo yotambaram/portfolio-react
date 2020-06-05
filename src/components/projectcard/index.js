@@ -1,12 +1,12 @@
 import React from 'react'
 import "./style.css"
-import {Card} from 'react-bootstrap';
+import { Card, Row} from 'react-bootstrap';
 
 
 export default function ProjectCard(props) {
   const projects = props.myProjects
   return (
-    <div>
+    <Row>
       <ul className="list-group">
         {projects.map(project => (
           <li className="list-group-item" key={project.name}>
@@ -40,22 +40,7 @@ export default function ProjectCard(props) {
           </li>
         ))}
       </ul>
-
-
-
-
-
-
-
-
-
-
-
-    </div>
-
-
-
-
+    </Row>
   )
 }
 

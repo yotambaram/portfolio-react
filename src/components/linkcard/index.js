@@ -6,18 +6,17 @@ export default function LinkCard(props) {
   const myInfo = props.myInfo
   return (
     <Row>
-      <Col sm={12}>
-        <Card style={{ width: '11rem' }}>
-          <Card.Img variant="top" src={require('../../public/jpg/linkedin.png')} />
-          <Card.Body>
-          </Card.Body>
-          <Card.Body>
-            <Card.Link className="card-text center-content" href="https://linkedin.com/in/yotambaram" value="linkedin" target="_blank" title="Yotams linkedin"> Visit My Linkedin</Card.Link>
-          </Card.Body>
-        </Card>
+      <Col id="right-card-one">
+      <Card  className="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="yotambaram" style={{ width: '15.5rem'}}>
+        <a classNames="LI-simple-link" href='https://www.linkedin.com/in/yotambaram?trk=profile-badge'>
+          </a></Card>
+
+
       </Col>
-      <Col sm={12}>
-        <Card style={{ width: '11rem'}}>
+      
+     
+      <Col id="right-card-two" sm={12} >
+        <Card  className = "github-card">
           <Card.Img variant="top" src={require('../../public/jpg/github.png')} />
           <Card.Body>
           </Card.Body>

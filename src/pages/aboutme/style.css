@@ -175,14 +175,15 @@ html {
 #right-card-one{
     position: fixed;
     height: 16rem;
-    width: 8%;
+    
+    margin-top: 8.5rem;
 }
 
 #right-card-two{
-    margin-top: 16.5rem;
+    margin-top: 33.5rem;
     position: fixed;
     height: 15.5rem;
-    width: 8%;
+    width: 17.5rem;
 }
 
 
