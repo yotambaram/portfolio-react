@@ -91,6 +91,12 @@ body {
 
 
 
+.head-card-holder{
+  text-align: center;
+  border: 0px solid white;
+  margin-top: 20px;
+  
+}
 
 #containerID{
   margin-top: 7%;

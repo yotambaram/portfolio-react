@@ -1,11 +1,12 @@
 import React from 'react'
 import "./style.css"
-import { Card, Row} from 'react-bootstrap';
+import { Card, Row, Col} from 'react-bootstrap';
 
 
 export default function ProjectCard(props) {
   const projects = props.myProjects
   return (
+    <Col md={12}>
     <Row>
       <ul className="list-group">
         {projects.map(project => (
@@ -29,11 +30,9 @@ export default function ProjectCard(props) {
                      return (
                       <small className="text-muted">
                         <Card.Link href={lnk.link} target="_blank"> { lnk.linkName }</Card.Link>
-                      </small>)
-
+                      </small>
+                    )
                   }
-                  
-                  
                 })}
               </Card.Body>
             </Card>
@@ -41,6 +40,7 @@ export default function ProjectCard(props) {
         ))}
       </ul>
     </Row>
+    </Col>
   )
 }
 

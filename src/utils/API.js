@@ -8,13 +8,13 @@ export const myInfo = {
     lookingFor: "",
     address: "Bellevue, WA USA", 
     picture: "yotam2.jpg",
-    github: "https://www.linkedin.com/in/yotambaram",
-    linkedin: "https://www.linkedin.com/in/yotambaram"
   },
-  github: "https://github.com/yotambaram",
-  linkedin: "https://www.linkedin.com/in/yotambaram",
+  myLinks: [
+  {link: "https://github.com/yotambaram", linkName: "GitHub"},
+  {link: "https://www.linkedin.com/in/yotambaram", linkName: "Linkedin"},
+],
   summary: "Intuitive user experiences; passionate about developing apps that help people solve everyday problems; approaching programming challenges from different perspectives; developing responsive websites; finding unique perspectives on how end-users interact with websites; mobile-first design, and development; collaborating with a team to address UX/UI problems; complex problem solving; responsive design; addressing accessibility issues; quality and performance testing; agile development; server-side development.",
-
+  
   skills: ["HTML", "CSS", "JavaScript", "Python",  "jQuery", "React.js", "Node.js", "Express",  "Git", "MySQL", "MongoDB", "Heroku", "Responsive Design", "Bootstrap", "Handlebars", "Cookies", "Local Storage Security and Session Storage", "User Authentication", "MERN Stack", "Adobe Premiere Pro", "Final Cut Pro"],
 
   workExp: [

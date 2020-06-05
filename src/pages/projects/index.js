@@ -1,26 +1,18 @@
 import React from 'react'
 import "./style.css"
-import Id from '../../components/id';
-import LinkCard from '../../components/linkcard';
+import PageHeader from '../../components/pageheader';
+//import LinkCard from '../../components/linkcard';
 import ProjectCard from '../../components/projectcard';
-import { Row, Col, Card } from 'react-bootstrap';
-
+import { Col, Row } from 'react-bootstrap';
+const thisPageName = "PROJECTS"
 
 export default function Projects(props) {
   return (
-      <Row id="progects">
-      <Col md={12} className = "contant">
-        <Card className = "project-card-holder">
-          <Card.Body>
-            <Card.Title><h5 className="sub">PROJECTS</h5></Card.Title>
-          </Card.Body>
-        </Card>
+    <Row>
+      <PageHeader pageName={thisPageName}/>
       
-
-           <ProjectCard myProjects={props.myProjects} /> 
-          </Col>
-          
-        </Row>
-
+        <ProjectCard myProjects={props.myProjects}/>
+      
+    </Row>
   )
 }

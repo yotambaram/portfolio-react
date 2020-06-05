@@ -1,15 +1,92 @@
 import React from 'react'
 import "./style.css"
+import { Col, Row, Card } from 'react-bootstrap';
 
-export default function ExperienceCard() {
+export default function ExperienceCard(props) {
+  const myData = props.myInfo;
+  const info = props.myInfo.info;
   return (
-    <div className="col-12 col-md-12 border-dark" id='about-me-holder full-width margin-fix'>
-       <div className='card border-dark mb-8 mb-2 shadow mt-1.5 bg-white rounded img-thumbnail'>
-        <div className='card-header border-dark gen-red bold-text text-center'>
-          <h5 className = "sub">EXPERTISE</h5>
-        </div>
-        
-      </div>
+    <Col md={12}>
+         
+
+            <Card style={{ width: '100%' }}>
+              <Card.Body>
+              <Card.Title>{info.title.toUpperCase()}</Card.Title>
+                <Card.Text>
+                  {myData.summary}
+                </Card.Text>
+              </Card.Body>
+            </Card>
+
+
+                
+      
+            <Card style={{ width: '100%' }}>
+              <Card.Body>
+                <Card.Title>WORK EXPERIENCE</Card.Title>
+                <Card.Text>
+                <ul className="list-group">
+                {myData.workExp.map(work => (
+                  <li className="list-group-item" key={info.name}>
+                   <strong> {work.company} | {work.roll}</strong><br/>
+                   <small className="card-text text-secondary">{work.address} {work.staerYear}-{work.endYear}</small><br/>
+                   <span>{work.description}</span>
+                </li>      
+                  ))}
+                </ul>
+                </Card.Text>
+              </Card.Body>
+              </Card>
+
+
+
+              <Card style={{ width: '100%' }}>
+              <Card.Body>
+                <Card.Title>TECHNICAL TOOLS</Card.Title>
+                <Card.Text>
+                {myData.skills.map(skill => (
+                   <span>{skill} | </span>
+                    
+                  ))}
+               
+                </Card.Text>
+              </Card.Body>
+              </Card>
+
+              <Card style={{ width: '100%' }}>
+              <Card.Body>
+                <Card.Title>LINKS</Card.Title>
+                <Card.Text>
+                  <ul>
+                {myData.myLinks.map(link => (
+                   <li className="list-group-item" key={info.name}>
+                      <Card.Link className="card-text center-content" href="https://github.com/yotambaram" value="githublink" target="_blank" title="Yotams github">
+                        Visit My {link.linkName}
+                      </Card.Link> 
+                    </li>
+                  ))}
+                  </ul>
+               
+                </Card.Text>
+              </Card.Body>
+              </Card>
+             
+               
+                  
+
+
+
+
+
+
+
+    </Col>
+  )
+}
+
+
+    /*<div className="col-12 col-md-12 border-dark" id='about-me-holder full-width margin-fix'>
+    
 
       <div className='card border-dark mb-8 shadow mt-1.5 bg-white rounded img-thumbnail'>
         <div className='card-header border-dark gen-red bold-text text-center'>
@@ -65,6 +142,26 @@ export default function ExperienceCard() {
 
         </div>
       </div>
-    </div>
-  )
-}
+  </div>
+  )*/
+
+
+
+/*
+ <Card.Body >
+              {project.links.map((lnk, i) => {
+                if(project.links.length-1 === i) {
+                  return (
+                    <small className="text-muted">
+                      <Card.Link href={lnk.link} target="_blank"> { lnk.linkName }</Card.Link>
+                    </small>)
+                } else {
+                   return (
+                    <small className="text-muted">
+                      <Card.Link href={lnk.link} target="_blank"> { lnk.linkName }</Card.Link>
+                    </small>
+                  )
+                }
+              })}
+            </Card.Body>
+*/

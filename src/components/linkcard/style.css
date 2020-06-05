@@ -65,29 +65,44 @@ html {
     margin-top: 1rem;
 }
 
+.link-card-holder{
+    position: fixed;
+    max-width: 15%;;
+}
 
-#github-card {
-    width: 15.5rem;
+.linkcard-holder{
+    width: 3rem;
+    margin-top: 8rem;
+    text-align: center;
+  position: relative; 
+ 
+}
+.linkcard{
+    margin: 5px 5px 15px 5px;
 }
 
 
 
 @media (max-width: 990px) {
+    .link-card-holder{
+        display: none;
+
+    }
+}
+
+
+
+
+@media (max-width: 1090px) {
     #id-card-holder{
         display: none;
         
         
     }
-    #right-card-two{
-        display: none;
+ 
 
-    }
   
-    #right-card-one{
-        display: none;
-
-    }
-
+  
 
 
 

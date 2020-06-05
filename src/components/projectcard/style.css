@@ -1,6 +1,6 @@
 
 .card {
-    width: 100%;
+    
     display: block;
     box-shadow: 0 8px 16px 16px 0 rgba(0, 0, 0, 0.2);
 
@@ -32,11 +32,11 @@
 
 .list-group-item {
     border: none;
-    padding: 0;
-    padding-top: 15px;
+    padding: 15px;
+    
 }
     
-.project-card-holder {
+.title-card-holder {
    background-color: rgb(165, 165, 165);
     width: 100%;
     text-align: center;

@@ -1,14 +1,19 @@
 import React from 'react'
 import "./style.css"
 import { Link } from 'react-router-dom'
+import PageHeader from '../../components/pageheader';
+const thisPageName = "YOTAM BARAM"
 
 
 
 export default function HomePage(props) {
   return (
+    
     <div id="home">
+      <PageHeader pageName={thisPageName}/>
       <div className='row'>
         <div className=' col-12 col-lg-6 col-xl-8 border-dark' id='home-contant'>
+        
 
           <ul className = "nonliststyle">
             <li><h6>ABOUT ME</h6>
