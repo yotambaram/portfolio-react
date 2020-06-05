@@ -1,14 +1,18 @@
 export const myInfo = {
-  me: {
+  info: {
     name: "Yotam Baram",
     title: "Full Stack Developer",
     aboutMeShort: "Full Stack Developer",
     aboutMeLong: "Full Stack Developer",
+    email: "yotambaram@gmail.com",
     lookingFor: "",
-    address: "Bellevue, WA"
+    address: "Bellevue, WA USA", 
+    picture: "yotam2.jpg",
+    github: "https://www.linkedin.com/in/yotambaram",
+    linkedin: "https://www.linkedin.com/in/yotambaram"
   },
   github: "https://github.com/yotambaram",
-  linkedin: "https://www.linkedin.com/in/yotambaram/",
+  linkedin: "https://www.linkedin.com/in/yotambaram",
   summary: "Intuitive user experiences; passionate about developing apps that help people solve everyday problems; approaching programming challenges from different perspectives; developing responsive websites; finding unique perspectives on how end-users interact with websites; mobile-first design, and development; collaborating with a team to address UX/UI problems; complex problem solving; responsive design; addressing accessibility issues; quality and performance testing; agile development; server-side development.",
 
   skills: ["HTML", "CSS", "JavaScript", "Python",  "jQuery", "React.js", "Node.js", "Express",  "Git", "MySQL", "MongoDB", "Heroku", "Responsive Design", "Bootstrap", "Handlebars", "Cookies", "Local Storage Security and Session Storage", "User Authentication", "MERN Stack", "Adobe Premiere Pro", "Final Cut Pro"],
@@ -115,7 +119,45 @@ export const myInfo = {
         }
       ]
     }
-  ]
+  ],
+  about: [
+    {
+    headline: "ABOUT ME", 
+    content: "10 years experience in broadcast and commercial production as an executive producer and content editor for various tv channels. Pre and post production live remote production. I’ve played key roles in creating high exposure content and producing major events. "
+    },
+    {
+    headline: "ABOUT ME", 
+    content: "10 years experience in broadcast and commercial production as an executive producer and content editor for various tv channels. Pre and post production live remote production. I’ve played key roles in creating high exposure content and producing major events. During March 2019 I’ve relocated from Israel to Seattle, WA, due to my wife’s relocation job. I took advantage of this major change as an opportunity to learn software development and to route myself into a career change which I was hoping for a long back. Since our move, I’ve been dedicated and targeted to gain knowledge, learning and developing my skills as a full stack developer. I’ve learnt independently and also completed successfully formal crossovers (certificates). Now I’m ready to take it to the next level and leverage the knowledge and experience I gained at my next role."
+    },
+    {
+    headline: "PERSONAL LIFE", 
+    content: "From Israel, relocated to US with my family in march 2019. Married to Ayelet and father to Adam (5) and Eleanor (2). We love to spend family time together, travel around mainly in nature."
+    },
+    {
+    headline: "I'M GOOD AT", 
+    content: ["Planning & driving schedule", "Results-oriented go-getter", "Partner management & team work", "Brainstorming and innovation"]
+    },
+    {
+      headline: "CAREER PATH", 
+      content: [
+        {
+          role:"Television playout operator", 
+          company:"MX1 Satellite services", 
+          years:"2018-2019"
+        },
+        {
+          role:">Senior News Content Editor", 
+          company:"Entertainment Channel", 
+          years:"2014-2017"
+        },
+        {
+          role:"Executive Producer and Content Editor", 
+          company:"The Israeli Sports Channel", 
+          years:"2009-2014"
+        }
+      ],
 
+    }
+  ]
 }
 

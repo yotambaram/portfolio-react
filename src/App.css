@@ -14,6 +14,18 @@ body {
 
 }
 
+
+#id-card-holder{
+  text-align: center;
+  display: flex;
+  height: 33rem;
+  margin: 6% 0% 0% 1%;
+  
+}
+
+
+
+
 .hide{
   display: none;
 }
@@ -81,7 +93,7 @@ body {
 
 
 #containerID{
-  margin-top: 9rem;
+  margin-top: 7%;
 }
 
 #home-container{

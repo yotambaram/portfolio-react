@@ -21,11 +21,7 @@ html {
     max-width: 20rem;
 }
 
-#home-id-card-style{
-    
-    margin-top: 3%;
-    background-color: rgb(170, 170, 170);
-}
+
 
 #all-content-holder{
     height: 100%;
@@ -61,6 +57,7 @@ html {
     margin-top: 1rem;
     width: 90%;
 }
+
 
 
 
@@ -160,7 +157,7 @@ html {
 #id-card {
     position: fixed;
     margin: 1rem 0.5rem;
-    width: 13%;
+    max-width: 15%;
     height: 33rem;
     
     

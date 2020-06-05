@@ -4,22 +4,12 @@ import { Link } from 'react-router-dom'
 
 
 
-export default function HomePage() {
+export default function HomePage(props) {
   return (
     <div id="home">
       <div className='row'>
-        <div className='col-12 col-md-12 border-dark backgraund-test' id='home-cover-color'>
-          <img src={require('../../public/jpg/yotam2.jpg')} alt="profilepic" id='home-profile-pic' className='img-thumbnail position-absolute' value="propic" />
-        </div>
-      </div>
-      <div className='row'>
-        <div className='col-12  col-lg-5 col-xl-4' id='home-place-holder'></div>
-        <div className=' col-12 col-lg-6 col-xl-6 border-dark' id='home-content'>
-          <div>
-            <h2>Yotam Baram</h2>
-          </div>
+        <div className=' col-12 col-lg-6 col-xl-8 border-dark' id='home-contant'>
 
-          <h5>Full Stack Developer</h5><br />
           <ul className = "nonliststyle">
             <li><h6>ABOUT ME</h6>
                 10 years experience in broadcast and commercial production as an executive producer and content editor for various tv channels. Pre and post production; live remote production.

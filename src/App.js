@@ -7,31 +7,40 @@ import HomePage from './pages/homepage';
 import AboutMe from './pages/aboutme';
 import NavBar from './components/navbar';
 import {myInfo} from './utils/API';
-
-
+import {Row, Col} from 'react-bootstrap';
+import Id from './components/id';
+import LinkCard from './components/linkcard';
 
 function App() {
   return (
     <Router>
       <div className="App">
         <NavBar />  
-          <div className='container border-dark shadow bg-white rounded d-flex justify-content-center' id="containerID">
+        <Row>
+          <Col md={2} id="id-card-holder">
+            <Id myInfo={myInfo.info}/>
+          </Col>
+          <Col md={7}className='container border-dark shadow bg-white rounded d-flex justify-content-center' id="containerID">
           <Switch>
           <Route exact path="/">
               <HomePage />
              </Route>
         
           <Route exact path="/aboutme">
-              <HomePage />
+              <HomePage myInfo={myInfo.info} aboutMe={myInfo.about} />
              </Route>
             <Route exact path="/projects">
-              <Projects myProjects={myInfo.projects}/>
+              <Projects myInfo={myInfo.info} myProjects={myInfo.projects} myInfo={myInfo.info}/>
              </Route>
-            <Route exact path="/experience">
+            <Route exact myInfo={myInfo.info} path="/experience">
               <AboutMe />
             </Route>
           </Switch>
-        </div>
+        </Col>
+        <Col md={2} className="side-link">
+           <LinkCard myInfo={myInfo.info}/>
+          </Col>
+        </Row>
       </div>
     </Router>
 
