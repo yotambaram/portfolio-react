@@ -9,20 +9,14 @@ html {
   }
 
 
-  .container {
-    min-height: 100vh;
-    margin-top: 8%;
-  
-    background-color: rgb(49, 49, 192);
-  
-  }
-
 .hide{
     display: none;
 }
 
 
-
+.experCard{
+    margin-bottom: 15px;
+}
 
 
 #home-profile-pic{
@@ -56,11 +50,6 @@ html {
 
 #navbar-nav{
     margin: 0 auto;
-    
-}
-
-.nav-item{
-   
     
 }
 
@@ -135,11 +124,6 @@ html {
     width: 100%;
 }
 
-
-.full-width{
-    width: 100%;
-
-}
 
 .border{
     border: 1px black;

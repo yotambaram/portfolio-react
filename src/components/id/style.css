@@ -8,13 +8,6 @@ html {
     
   }
 
-  .container {
-    min-height: 100vh;
-    margin-top: 6%;
-  
-    background-color: rgb(49, 49, 192);
-  
-  }
 .hide{
     display: none;
 }
@@ -116,12 +109,6 @@ html {
     height: 13rem;
     background-color: rgb(170, 170, 170);
     width: 100%;
-}
-
-
-.full-width{
-    width: 100%;
-
 }
 
 .border{

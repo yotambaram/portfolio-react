@@ -40,9 +40,7 @@ html {
 
 }
 
-#profile-pic{
-    margin: 33% auto;
-}
+
 
 
 #navbar-nav{
@@ -72,7 +70,7 @@ html {
 
 .linkcard-holder{
     width: 3rem;
-    margin-top: 8rem;
+    margin-top: 45%;
     text-align: center;
   position: relative; 
  
@@ -83,7 +81,7 @@ html {
 
 
 
-@media (max-width: 990px) {
+@media (max-width: 800px) {
     .link-card-holder{
         display: none;
 
@@ -93,20 +91,13 @@ html {
 
 
 
-@media (max-width: 1090px) {
+@media (max-width: 1400px) {
     #id-card-holder{
         display: none;
         
         
     }
  
-
-  
-  
-
-
-
-
     .extra-cantant{
         display: none;
     }
@@ -135,10 +126,6 @@ html {
 }
 
 
-.full-width{
-    width: 100%;
-
-}
 
 .border{
     border: 1px black;
@@ -173,7 +160,7 @@ html {
 
 #id-card {
     position: fixed;
-    margin: 1rem 0.5rem;
+    
     max-width: 15%;
     height: 33rem;
     

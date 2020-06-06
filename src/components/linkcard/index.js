@@ -7,9 +7,9 @@ export default function LinkCard(props) {
     <Row className = "linkcard-holder" >
       <Col md={12} className="link-card-holder">
         {props.myLinks.map(link => (
-            <Card className = "linkcard">
+            <Card className = "linkcard border" key={link.linkName}>
               <Card.Link className="card-text center-content" href={link.link} value={link.linkName.toLowerCase()} target="_blank" title= {link.linkName}>
-              <Card.Img variant="top" src={require(`../../public/jpg/${link.linkName.toLowerCase()}.png`)} />
+              <Card.Img className = "border" variant="top" src={require(`../../public/jpg/${link.linkName.toLowerCase()}.png`)} />
               <Card.Body>
                 <Card.Title> 
                       Visit My {link.linkName}

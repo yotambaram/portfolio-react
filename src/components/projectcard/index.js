@@ -6,12 +6,12 @@ import { Card, Row, Col} from 'react-bootstrap';
 export default function ProjectCard(props) {
   const projects = props.myProjects
   return (
-    <Col md={12}>
-    <Row>
-      <ul className="list-group">
+    <Col >
+    <Row >
+      <ul className="list-group" key={projects.name}>
         {projects.map(project => (
-          <li className="list-group-item" key={project.name}>
-            <Card style={{ width: '100%' }}>
+          <li className="list-group-item"  >
+            <Card className = "justify-content-md-center">
               <Card.Img variant="top" src={require(`../../public/jpg/${project.picture}`)} />
               <Card.Body>
                 <Card.Title>{project.name}</Card.Title>
@@ -23,13 +23,13 @@ export default function ProjectCard(props) {
                 {project.links.map((lnk, i) => {
                   if(project.links.length-1 === i) {
                     return (
-                      <small className="text-muted">
-                        <Card.Link href={lnk.link} target="_blank"> { lnk.linkName }</Card.Link>
+                      <small className="text-muted" key={lnk.linkName }>
+                        <Card.Link href={lnk.link} target="_blank"> { lnk.linkName } |</Card.Link>
                       </small>)
                   } else {
                      return (
                       <small className="text-muted">
-                        <Card.Link href={lnk.link} target="_blank"> { lnk.linkName }</Card.Link>
+                        <Card.Link href={lnk.link} target="_blank"> { lnk.linkName } |</Card.Link>
                       </small>
                     )
                   }

@@ -3,8 +3,8 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Projects from './pages/projects';
-import HomePage from './pages/homepage';
 import AboutMe from './pages/aboutme';
+import Expertise from './pages/expertise';
 import NavBar from './components/navbar';
 import { myInfo } from './utils/API';
 import { Row, Col } from 'react-bootstrap';
@@ -12,36 +12,44 @@ import Id from './components/id';
 import LinkCard from './components/linkcard';
 
 function App() {
+
+
   return (
     <Router>
-      <div className="App">
+    <Row>
         <NavBar />
+        </Row>
+        
         <Row>
           <Col md={2} id="id-card-holder">
             <Id myInfo={myInfo.info} />
           </Col>
-          <Col md={7} className='container border-dark shadow bg-white rounded d-flex justify-content-center' id="containerID">
+          <Col md={12} lg={7} className='container border-dark shadow bg-white rounded d-flex justify-content-center' id="containerID">
+          
             <Switch>
               <Route exact path="/">
-                <HomePage />
+                <AboutMe />
               </Route>
 
               <Route exact path="/aboutme">
-                <HomePage myInfo={myInfo.info} aboutMe={myInfo.about} />
+                <AboutMe aboutMe={myInfo.about} />
               </Route>
               <Route exact path="/projects">
-                <Projects myInfo={myInfo.info} myProjects={myInfo.projects} myInfo={myInfo.info} />
+                <Projects myInfo={myInfo.info} myProjects={myInfo.projects} />
               </Route>
               <Route exact path="/experience">
-                <AboutMe myInfo={myInfo} />
+                <Expertise myInfo={myInfo} />
               </Route>
             </Switch>
+         
           </Col>
           <Col md={2} >
                <LinkCard myLinks={myInfo.myLinks} /> 
           </Col>
         </Row>
-      </div>
+      
+    
+      
     </Router>
 
   );

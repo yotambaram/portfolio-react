@@ -52,13 +52,7 @@ html {
     margin: 33% auto;
 }
 
-.container {
-    min-height: 100vh;
-    margin-top: 6%;
-  
-    background-color: rgb(49, 49, 192);
-  
-  }
+
 
 #navbarNav{
     justify-content: center;
@@ -79,11 +73,7 @@ html {
 }
 
 
-#home-container{
-    background-color: white;
-    border: 1px solid black;
-   
-}
+
 
 
 @media (max-width: 720px) {
@@ -136,10 +126,6 @@ html {
 }
 
 
-.full-width{
-    width: 100%;
-
-}
 
 .border{
     border: 1px black;

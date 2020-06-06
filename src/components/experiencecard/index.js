@@ -1,15 +1,13 @@
 import React from 'react'
 import "./style.css"
-import { Col, Row, Card } from 'react-bootstrap';
+import { Col, Card } from 'react-bootstrap';
 
 export default function ExperienceCard(props) {
   const myData = props.myInfo;
   const info = props.myInfo.info;
   return (
     <Col md={12}>
-         
-
-            <Card style={{ width: '100%' }}>
+            <Card className = "experCard">
               <Card.Body>
               <Card.Title>{info.title.toUpperCase()}</Card.Title>
                 <Card.Text>
@@ -21,7 +19,7 @@ export default function ExperienceCard(props) {
 
                 
       
-            <Card style={{ width: '100%' }}>
+            <Card className = "experCard">
               <Card.Body>
                 <Card.Title>WORK EXPERIENCE</Card.Title>
                 <Card.Text>
@@ -40,46 +38,33 @@ export default function ExperienceCard(props) {
 
 
 
-              <Card style={{ width: '100%' }}>
+              <Card className = "experCard">
               <Card.Body>
                 <Card.Title>TECHNICAL TOOLS</Card.Title>
                 <Card.Text>
                 {myData.skills.map(skill => (
                    <span>{skill} | </span>
-                    
                   ))}
-               
                 </Card.Text>
               </Card.Body>
               </Card>
 
-              <Card style={{ width: '100%' }}>
+              <Card className = "experCard">
               <Card.Body>
                 <Card.Title>LINKS</Card.Title>
-                <Card.Text>
                   <ul>
                 {myData.myLinks.map(link => (
                    <li className="list-group-item" key={info.name}>
-                      <Card.Link className="card-text center-content" href="https://github.com/yotambaram" value="githublink" target="_blank" title="Yotams github">
+                     <Card.Text>
+                      <Card.Link href="https://github.com/yotambaram" target="_blank">
                         Visit My {link.linkName}
                       </Card.Link> 
+                      </Card.Text>
                     </li>
                   ))}
                   </ul>
-               
-                </Card.Text>
               </Card.Body>
               </Card>
-             
-               
-                  
-
-
-
-
-
-
-
     </Col>
   )
 }

@@ -8,14 +8,6 @@ html {
   }
 
 
-.container {
-    min-height: 100vh;
-    margin-top: 6%;
-    background-color: rgb(49, 49, 192);
-   
-}
-
-
 
 .hide{
     display: none;
@@ -27,6 +19,7 @@ html {
     margin: 4rem;
     max-width: 20rem;
 }
+
 
 
 #all-content-holder{
@@ -41,11 +34,6 @@ html {
 
 
 
-#contant-style{
-    border: 1px black;
-    height: 100%; 
-
-}
 
 #profile-pic{
     margin: 33% auto;
@@ -54,9 +42,11 @@ html {
 
 #navbar-nav{
     margin: 0 auto;
+    width: 100%;
+    overflow: hidden;
+  
     
-}
-
+  }
 
 
 #head-line{
@@ -72,20 +62,11 @@ html {
 
 
 
-#about-me-holder{
-    margin-top: -1.5rem;
- 
- }
 
-#home-container{
-    background-color: white;
-    border: 1px solid black;
-   
-}
 
 
 @media (max-width: 720px) {
-   
+
   
 
     #project-one{
@@ -131,10 +112,7 @@ html {
 }
 
 
-.full-width{
-    width: 100%;
 
-}
 
 .border{
     border: 1px black;
@@ -151,9 +129,6 @@ html {
 }
 #home-contant{
     min-height: 100vh;
-    padding: 3% 1% 1% 5%;
-    
-    
 }
 
 
@@ -171,6 +146,12 @@ html {
 .bold-text{
     font-weight: 600
 }
+
+
+
+
+
+
 
 
 
