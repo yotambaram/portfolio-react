@@ -16,42 +16,34 @@ function App() {
 
   return (
     <Router>
-    <Row>
+      <Row>
         <NavBar />
-        </Row>
-        
-        <Row>
-          <Col md={2} id="id-card-holder">
-            <Id myInfo={myInfo.info} />
-          </Col>
-          <Col md={12} lg={7} className='container border-dark shadow bg-white rounded d-flex justify-content-center' id="containerID">
-          
-            <Switch>
-              <Route exact path="/">
-                <AboutMe />
-              </Route>
-
-              <Route exact path="/aboutme">
-                <AboutMe aboutMe={myInfo.about} />
-              </Route>
-              <Route exact path="/projects">
-                <Projects myInfo={myInfo.info} myProjects={myInfo.projects} />
-              </Route>
-              <Route exact path="/experience">
-                <Expertise myInfo={myInfo} />
-              </Route>
-            </Switch>
-         
-          </Col>
-          <Col md={2} >
-               <LinkCard myLinks={myInfo.myLinks} /> 
-          </Col>
-        </Row>
-      
-    
-      
+      </Row>
+      <Row>
+        <Col md={2} id="id-card-holder">
+          <Id myInfo={myInfo.info} />
+        </Col>
+        <Col md={12} lg={7} className='container border-dark shadow bg-white rounded d-flex justify-content-center' id="containerID">
+          <Switch>
+            <Route exact path="/">
+              <AboutMe aboutMe={myInfo.about} />
+            </Route>
+            <Route exact path="/aboutme">
+              <AboutMe aboutMe={myInfo.about} />
+            </Route>
+            <Route exact path="/projects">
+              <Projects myInfo={myInfo.info} myProjects={myInfo.projects} />
+            </Route>
+            <Route exact path="/expertise">
+              <Expertise myInfo={myInfo} />
+            </Route>
+          </Switch>
+        </Col>
+        <Col md={2} >
+          <LinkCard myLinks={myInfo.myLinks} />
+        </Col>
+      </Row>
     </Router>
-
   );
 }
 

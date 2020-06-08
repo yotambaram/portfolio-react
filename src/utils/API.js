@@ -55,7 +55,8 @@ export const myInfo = {
     }
   ],
   projects: [
-    {    
+    {
+    id: 1,
     name: "Find Tutor",
     description:`A social network that allows you to choose skills you need help to learn and find tutor or with skills you are good on and can be a tutor, you can find the learning people who needs help`,
     picture: `findtutor.JPG`,
@@ -74,7 +75,8 @@ export const myInfo = {
       }
     ]
     },
-  {
+    {
+      id: 2,
       name: "Flixlists",
       description:`Full stack web application that allows users to search the Open Movie Database for information about films and to keep lists of their favorite ones. Each user his her own login and password and her lists are stored persistently in a MySql database.`,
       picture: "flixlists.JPG",
@@ -90,6 +92,7 @@ export const myInfo = {
       ]
     },
     {
+      id: 3,
       name: "Weather Dashboard",
       description:`The weather app is simple, accessible and easy to use. Receives the weather API details and passes them to a site visitor based on their location or location searched for Fahrenheit or Celsius of your choice.`,
       picture: "weather-deshboard.JPG",
@@ -106,6 +109,7 @@ export const myInfo = {
     },
     {
       name: "Finder",
+      id: 4,
       description: `My first project in code studies, a month after I started. Not a project that showcases its capabilities but it is my first "product" and has sentimental value to me. The app lets you choose a place to eat by picture. The user's location information and entertainment content come from two third-party APIs.`,
       picture: "finder.JPG",
       links: [
@@ -122,18 +126,22 @@ export const myInfo = {
   ],
   about: [
     {
+    cardid: 1,
     headline: "ABOUT ME", 
     content: "10 years experience in broadcast and commercial production as an executive producer and content editor for various tv channels. Pre and post production live remote production. I’ve played key roles in creating high exposure content and producing major events. During March 2019 I’ve relocated from Israel to Seattle, WA, due to my wife’s relocation job. I took advantage of this major change as an opportunity to learn software development and to route myself into a career change which I was hoping for a long back. Since our move, I’ve been dedicated and targeted to gain knowledge, learning and developing my skills as a full stack developer. I’ve learnt independently and also completed successfully formal crossovers (certificates). Now I’m ready to take it to the next level and leverage the knowledge and experience I gained at my next role."
     },
     {
+    cardid: 2,
     headline: "PERSONAL LIFE", 
     content: "From Israel, relocated to US with my family in march 2019. Married to Ayelet and father to Adam (5) and Eleanor (2). We love to spend family time together, travel around mainly in nature."
     },
     {
-      headline: "CAREER PATH", 
-      content: ["Television playout operator, Television playout operator, 2018-2019", "Senior News Content Editor, Entertainment Channel, 2014-2017", "Executive Producer and Content Editor, The Israeli Sports Channel, 2009-2014"]
+    cardid: 3,
+    headline: "CAREER PATH", 
+    content: ["Television playout operator, Television playout operator, 2018-2019", "Senior News Content Editor, Entertainment Channel, 2014-2017", "Executive Producer and Content Editor, The Israeli Sports Channel, 2009-2014"]
     },
     {
+    cardid: 4,
     headline: "I'M GOOD AT", 
     content: ["Planning & driving schedule", "Results-oriented go-getter", "Partner management & team work", "Brainstorming and innovation"]
     }

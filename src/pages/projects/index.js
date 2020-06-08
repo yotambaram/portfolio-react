@@ -9,10 +9,8 @@ const thisPageName = "PROJECTS"
 export default function Projects(props) {
   return (
     <Row>
-      <PageHeader pageName={thisPageName}/>
-      
-        <ProjectCard myProjects={props.myProjects}/>
-      
+      <PageHeader pageName={thisPageName} />
+      <ProjectCard myProjects={props.myProjects} />
     </Row>
   )
 }
