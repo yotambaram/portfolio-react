@@ -16,15 +16,15 @@ function App() {
 
   return (
     <Router>
-      <Row>
+      <Row className="bg-dark">
         <NavBar />
       </Row>
       <Row>
         <Col md={2} id="id-card-holder">
           <Id myInfo={myInfo.info} />
         </Col>
-        <Container fluid id="navfluid" md={12} lg={7} className='container border-dark shadow bg-white rounded d-flex justify-content-center' style={{marginTop: "7%"}}>
-     
+        <Col md={12} lg={7} className='border-dark shadow bg-white rounded d-flex container justify-content-center' style={{marginTop: "7%"}}>
+        <Container fluid id="navfluid">
           <Switch>
             <Route exact path="/">
               <AboutMe aboutMe={myInfo.about} myInfo={myInfo.info}/>
@@ -41,6 +41,7 @@ function App() {
           </Switch>
        
         </Container>
+        </Col>
         <Col md={2} >
           <LinkCard myLinks={myInfo.myLinks} />
         </Col>

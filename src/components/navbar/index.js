@@ -4,16 +4,19 @@ import { Link } from 'react-router-dom'
 import { Nav, Navbar, Container } from 'react-bootstrap';
 
 export default function NavBar(props) {
+
+  
+
   return (
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-      <Navbar.Toggle />
+    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" >
+      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse>
-        <Nav className="mr-auto d-block navbar navbar-expand-lg navbar-dark bg-dark fixed-top" role="navigation">
-          <Container fluid id="navfluid">
+        <Nav className="mr-auto d-block navbar navbar-expand-lg navbar-dark bg-dark fixed-top my-nav-bar" role="navigation">
+  
             <ul className="nav navbar-nav d-flex justify-content-center">
               <li className="nav-item">
                 <Nav.Item>
-                  <Nav.Link eventKey="1" as={Link} to="/aboutme">
+                  <Nav.Link onClick={props.hideID} eventKey="1" as={Link} to="/aboutme">
                     ABOUT ME
                      </Nav.Link>
                 </Nav.Item>
@@ -33,7 +36,6 @@ export default function NavBar(props) {
                 </Nav.Item>
               </li>
             </ul>
-          </Container>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

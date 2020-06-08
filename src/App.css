@@ -2,10 +2,7 @@ html {
   min-height: 100%;
 }
 
-body {
-  min-height: 100vh;
-  
-}
+
 
 
 
@@ -96,12 +93,7 @@ body {
   margin-top: 7%;
 }
 
-#home-container{
-  background-color: white;
-  border: 1px solid black;
-  
- 
-}
+
 
 
 @media (max-width: 600px) {

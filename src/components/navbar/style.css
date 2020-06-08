@@ -2,11 +2,7 @@
 html {
     min-height: 100%;
   }
-  
-  body {
-    min-height: 100vh;
-    
-  }
+
 
 
   #navbar-nav{
@@ -21,7 +17,9 @@ html {
 }
 
 
-
+.my-nav-bar{
+    width: 100%;
+}
 
 
 #home-profile-pic{

@@ -1,14 +1,20 @@
 import React from 'react'
 import "./style.css"
-import { Row, Col } from 'react-bootstrap';
+import { Row, Col, Card } from 'react-bootstrap';
 import PageHeader from '../../components/pageheader';
 const thisPageName = "YOTAM BARAM"
 
 export default function aboutMe(props) {
   const aboutMeData = props.aboutMe
+  const info = props.myInfo
   return (
     <Row>
       <PageHeader pageName={thisPageName} />
+      <Col md={12} id='picture-holder' >
+      <Card>
+      <Card.Img variant="top" src={require(`../../public/jpg/${info.picture}`)} />
+    </Card>
+    </Col>
       <Col id='home-contant' >
         {aboutMeData.map((about) => {
           if (typeof (about.content) === "string") {

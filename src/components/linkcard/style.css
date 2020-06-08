@@ -1,11 +1,7 @@
 html {
     min-height: 100%;
   }
-  
-  body {
-    min-height: 100vh;
-    
-  }
+
 
 
 .hide{
@@ -80,23 +76,26 @@ html {
 }
 
 
-@media (max-width: 1000px) {
-    .link-card-holder{
-        display: none;
 
-    }
+
+
+#picture-holder{
+    display: none;
 }
-
-
-
 
 @media (max-width: 1000px) {
     #id-card-holder{
         display: none;
     }
 
-    #small-scn-pic{
+    #picture-holder{
         display: inline;
+
+    }
+
+    .link-card-holder{
+        display: none;
+
     }
 
 

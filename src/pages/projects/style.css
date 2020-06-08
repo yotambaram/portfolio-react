@@ -1,11 +1,7 @@
 html {
     min-height: 100%;
   }
-  
-  body {
-    min-height: 100vh;
-    
-  }
+
 
 .hide{
     display: none;
@@ -72,13 +68,6 @@ html {
     margin-top: 1rem;
 }
 
-
-
-#home-container{
-    background-color: white;
-    border: 1px solid black;
-   
-}
 
 
 
