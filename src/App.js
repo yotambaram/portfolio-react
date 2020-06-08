@@ -7,7 +7,7 @@ import AboutMe from './pages/aboutme';
 import Expertise from './pages/expertise';
 import NavBar from './components/navbar';
 import { myInfo } from './utils/API';
-import { Row, Col } from 'react-bootstrap';
+import { Row, Col, Container } from 'react-bootstrap';
 import Id from './components/id';
 import LinkCard from './components/linkcard';
 
@@ -23,13 +23,14 @@ function App() {
         <Col md={2} id="id-card-holder">
           <Id myInfo={myInfo.info} />
         </Col>
-        <Col md={12} lg={7} className='container border-dark shadow bg-white rounded d-flex justify-content-center' id="containerID">
+        <Container fluid id="navfluid" md={12} lg={7} className='container border-dark shadow bg-white rounded d-flex justify-content-center' style={{marginTop: "7%"}}>
+     
           <Switch>
             <Route exact path="/">
-              <AboutMe aboutMe={myInfo.about} />
+              <AboutMe aboutMe={myInfo.about} myInfo={myInfo.info}/>
             </Route>
             <Route exact path="/aboutme">
-              <AboutMe aboutMe={myInfo.about} />
+              <AboutMe aboutMe={myInfo.about} myInfo={myInfo.info}/>
             </Route>
             <Route exact path="/projects">
               <Projects myInfo={myInfo.info} myProjects={myInfo.projects} />
@@ -38,7 +39,8 @@ function App() {
               <Expertise myInfo={myInfo} />
             </Route>
           </Switch>
-        </Col>
+       
+        </Container>
         <Col md={2} >
           <LinkCard myLinks={myInfo.myLinks} />
         </Col>

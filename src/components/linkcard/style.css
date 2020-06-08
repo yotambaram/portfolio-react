@@ -72,7 +72,7 @@ html {
     width: 3rem;
     margin-top: 45%;
     text-align: center;
-  position: relative; 
+     position: relative; 
  
 }
 .linkcard{
@@ -80,8 +80,7 @@ html {
 }
 
 
-
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
     .link-card-holder{
         display: none;
 
@@ -91,12 +90,16 @@ html {
 
 
 
-@media (max-width: 1400px) {
+@media (max-width: 1000px) {
     #id-card-holder{
         display: none;
-        
-        
     }
+
+    #small-scn-pic{
+        display: inline;
+    }
+
+
  
     .extra-cantant{
         display: none;
