@@ -7,7 +7,7 @@ const thisPageName = "PROJECTS"
 
 export default function Projects(props) {
   return (
-    <Row style={{margin:"0 auto"}}>
+    <Row style={{margin:"0 auto"}} className="gray-background">
       <PageHeader pageName={thisPageName} />
       <ProjectCard myProjects={props.myProjects} />
     </Row>
