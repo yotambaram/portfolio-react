@@ -2,6 +2,10 @@ html {
   min-height: 100%;
 }
 
+li{
+  padding: 0;
+}
+
 body, 
 html,
 .app {
@@ -17,11 +21,6 @@ html,
   
 }
 
-#all-content-older{
-  background-color: rgb(243, 243, 243);
-  
-  margin: 0 auto;
-}
 
 
 
@@ -46,11 +45,12 @@ html,
   background-color: rgb(170, 170, 170);
 
 }
-#all-content-holder{
-  height: 100%;
 
+#content-holder {
+  width: 100%;
+  margin-top:4rem;
+  padding: 0;
 }
-
 
 
 #contant-style{
@@ -77,10 +77,6 @@ html,
 }
 
 
-#head-line{
-  margin-top: 1rem;
-  width: 90%;
-}
 
 
 
@@ -94,6 +90,8 @@ html,
   text-align: center;
   border: 0px solid white;
   margin-top: 20px;
+  padding: 0;
+  
   
 }
 

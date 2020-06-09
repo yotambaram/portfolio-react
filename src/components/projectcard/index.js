@@ -1,16 +1,15 @@
 import React from 'react'
 import "./style.css"
-import { Card, Row, Col } from 'react-bootstrap';
+import { Card } from 'react-bootstrap';
 
 export default function ProjectCard(props) {
   const projects = props.myProjects
   return (
-    <Col >
-      <Row >
+  
         <ul className="list-group" key={projects.name}>
           {projects.map(project => (
             <li className="list-group-item" key={project.id} >
-              <Card className="justify-content-md-center">
+              <Card style={{margin:"0 auto"}}>
                 <Card.Img variant="top" src={require(`../../public/jpg/${project.picture}`)} />
                 <Card.Body>
                   <Card.Title>{project.name}</Card.Title>
@@ -38,7 +37,6 @@ export default function ProjectCard(props) {
             </li>
           ))}
         </ul>
-      </Row>
-    </Col>
+   
   )
 }
