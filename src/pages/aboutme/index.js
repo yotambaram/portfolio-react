@@ -8,7 +8,7 @@ export default function aboutMe(props) {
   const aboutMeData = props.aboutMe
   const info = props.myInfo
   return (
-    <Row style={{margin: "0 auto"}}>
+    <Row style={{margin: "0 auto"}} className="gray-background">
       <PageHeader pageName={thisPageName} />
       <Col md={12} id='picture-holder'>
       <Card style={{margin: "0 auto"}}>

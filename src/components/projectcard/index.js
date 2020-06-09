@@ -8,7 +8,7 @@ export default function ProjectCard(props) {
   
         <ul className="list-group" key={projects.name}>
           {projects.map(project => (
-            <li className="list-group-item" key={project.id} >
+            <li className="list-group-item gray-background" key={project.id} >
               <Card style={{margin:"0 auto"}}>
                 <Card.Img variant="top" src={require(`../../public/jpg/${project.picture}`)} />
                 <Card.Body>
