@@ -25,7 +25,7 @@ function App() {
           <Col md={2} id="id-card-holder">
             <Id myInfo={myInfo.info} />
           </Col>
-          <Col md={12} lg={7} className='border-dark shadow bg-white rounded d-flex container justify-content-center' id='content-holder' style={{maxWidth:"96%"}} >
+          <Col lg={12} xl={7} className='border-dark shadow bg-white rounded d-flex container justify-content-center' id='content-holder' style={{maxWidth:"96%"}} >
             <Container fluid id="navfluid">
               <Switch>
                 <Route exact path="/">
