@@ -46,7 +46,7 @@ export default function ExperienceCard(props) {
             {myData.myLinks.map(link => (
               <li className="list-group-item head-line-content" key={link.linkName} style={{padding: "0 1px"}}>
                 <Card.Text>
-                  <Card.Link href="https://github.com/yotambaram" target="_blank" >
+                  <Card.Link href={link.link} target="_blank" >
                     Visit My {link.linkName}
                   </Card.Link>
                 </Card.Text>
