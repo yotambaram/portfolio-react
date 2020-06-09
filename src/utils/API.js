@@ -13,10 +13,8 @@ export const myInfo = {
   {link: "https://github.com/yotambaram", linkName: "GitHub"},
   {link: "https://www.linkedin.com/in/yotambaram", linkName: "Linkedin"},
 ],
-  summary: "Intuitive user experiences; passionate about developing apps that help people solve everyday problems; approaching programming challenges from different perspectives; developing responsive websites; finding unique perspectives on how end-users interact with websites; mobile-first design, and development; collaborating with a team to address UX/UI problems; complex problem solving; responsive design; addressing accessibility issues; quality and performance testing; agile development; server-side development.",
-  
+  summary: "Creative thinker who passionate about developing apps that help people solve everyday problems. Approaching programming challenges from different perspectives, designing simple scalable solutions for complex problems. Creating intuitive user experiences Mobile-first design & development Excellent communication and collaboration skills.",
   skills: ["HTML", "CSS", "JavaScript", "Python",  "jQuery", "React.js", "Node.js", "Express",  "Git", "MySQL", "MongoDB", "Heroku", "Responsive Design", "Bootstrap", "Handlebars", "Cookies", "Local Storage Security and Session Storage", "User Authentication", "MERN Stack", "Adobe Premiere Pro", "Final Cut Pro"],
-
   workExp: [
     {
       company:"MX1 (SES) Satellite services",
@@ -58,7 +56,7 @@ export const myInfo = {
     {
     id: 1,
     name: "Find Tutor",
-    description:`A social network that allows you to choose skills you need help to learn and find tutor or with skills you are good on and can be a tutor, you can find the learning people who needs help`,
+    description:`A social network that enables a student user to look for a tutors/a tutor user look for a students, based on selected set of skills user is defining`,
     picture: `findtutor.JPG`,
     links: [
       {
@@ -78,7 +76,7 @@ export const myInfo = {
     {
       id: 2,
       name: "Flixlists",
-      description:`Full stack web application that allows users to search the Open Movie Database for information about films and to keep lists of their favorite ones. Each user his her own login and password and her lists are stored persistently in a MySql database.`,
+      description:`Full stack web application that allows users to search the open Movie Database for information about films and to create & save movie lists. Each user owns user name & password and user's lists are stored persistently in a MySql database.`,
       picture: "flixlists.JPG",
       links: [
         {
@@ -94,7 +92,8 @@ export const myInfo = {
     {
       id: 3,
       name: "Weather Dashboard",
-      description:`The weather app is simple, accessible and easy to use. Receives the weather API details and passes them to a site visitor based on their location or location searched for Fahrenheit or Celsius of your choice.`,
+      description:`The weather app is simple, accessible and easy to use. 
+      The app calls the weather API, user will get weather forcast details based on user's location or searched location, results presented in Fahrenheit or Celsius based on user's choice`,
       picture: "weather-deshboard.JPG",
       links: [
         {
@@ -110,7 +109,10 @@ export const myInfo = {
     {
       name: "Finder",
       id: 4,
-      description: `My first project in code studies, a month after I started. Not a project that showcases its capabilities but it is my first "product" and has sentimental value to me. The app lets you choose a place to eat by picture. The user's location information and entertainment content come from two third-party APIs.`,
+      description: `My first project in very early stage, a month after I started. Basic but very sentimental to me.
+      The app uses two third-party APIs to get user's geolocation and restaranut data. 
+      The app suggests the user with restaurants randomly, based on selected location. 
+      User can reject to show the next random option or accept to get restaurant details.`,
       picture: "finder.JPG",
       links: [
         {
