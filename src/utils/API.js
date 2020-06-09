@@ -13,7 +13,7 @@ export const myInfo = {
   {link: "https://github.com/yotambaram", linkName: "GitHub"},
   {link: "https://www.linkedin.com/in/yotambaram", linkName: "Linkedin"},
 ],
-  summary: "Creative thinker who is passionate about developing apps that help people solve everyday problems. Approaching programming challenges from different perspectives, designing simple scalable solutions for complex problems. Creating intuitive user experiences Mobile-first design & development Excellent communication and collaboration skills.",
+  summary: "Creative thinker, passionate about developing apps that help people solve everyday problems. Approaching programming challenges from different perspectives, designing simple scalable solutions for complex problems. Creating intuitive user experiences Mobile-first design & development Excellent communication and collaboration skills.",
   skills: ["HTML", "CSS", "JavaScript", "Python",  "jQuery", "React.js", "Node.js", "Express",  "Git", "MySQL", "MongoDB", "Heroku", "Responsive Design", "Bootstrap", "Handlebars", "Cookies", "Local Storage Security and Session Storage", "User Authentication", "MERN Stack", "Adobe Premiere Pro", "Final Cut Pro"],
   workExp: [
     {
