@@ -21,11 +21,11 @@ function App() {
         <Row className="bg-dark">
           <NavBar />
         </Row>
-        <Row id="all-content-older">
+        <Row id="all-content-older" style={{margin: "0 auto"}}>
           <Col md={2} id="id-card-holder">
             <Id myInfo={myInfo.info} />
           </Col>
-          <Col md={12} lg={7} className='border-dark shadow bg-white rounded d-flex container justify-content-center' id='content-holder' >
+          <Col md={12} lg={7} className='border-dark shadow bg-white rounded d-flex container justify-content-center' id='content-holder' style={{maxWidth:"96%"}} >
             <Container fluid id="navfluid">
               <Switch>
                 <Route exact path="/">
