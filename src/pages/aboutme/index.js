@@ -11,7 +11,7 @@ export default function aboutMe(props) {
     <Row>
       <PageHeader pageName={thisPageName} />
       <Col md={12} id='picture-holder' >
-      <Card>
+      <Card style={{margin: "0 auto"}}>
       <Card.Img variant="top" src={require(`../../public/jpg/${info.picture}`)} />
     </Card>
     </Col>

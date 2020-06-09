@@ -24,9 +24,9 @@ export const myInfo = {
       address: "Bet Shemesh Israel",
       staerYear: 2018,
       endYear: 2019,
-      description:`*Monitoring and control during TV broadcast. Operation and maintenance of the various control systems for satellite communications equipment and associated devices. 
-      * Providing technical support to resolve issues in real time and ensuring continuous transmission. 
-      *Globally company, 150 TV channels in this playout`
+      description:`Monitoring and control during TV broadcast. Operation and maintenance of the various control systems for satellite communications equipment and associated devices. 
+       Providing technical support to resolve issues in real time and ensuring continuous transmission. 
+      Globally company, 150 TV channels in this playout.`
 
     },
     {
@@ -35,8 +35,8 @@ export const myInfo = {
       address: "Tel Aviv Israel",
       staerYear: 2014,
       endYear: 2018,
-      description:`*Managed a team of 15 employees. Defined work plans for short/long term, implemented work procedures, targeting effective use of resources and load balancing during broadcast time, improved productivity KPIs.
-      *Coordinated with various external stakeholders and content providers (PR, publishers, brand marketers, agents, reporters etc.).
+      description:`Managed a team of 15 employees. Defined work plans for short/long term, implemented work procedures, targeting effective use of resources and load balancing during broadcast time, improved productivity KPIs.
+      Coordinated with various external stakeholders and content providers (PR, publishers, brand marketers, agents, reporters etc.).
       `
 
     },
@@ -46,11 +46,11 @@ export const myInfo = {
       address: "Tel Aviv Israel",
       staerYear: 2009,
       endYear: 2014,
-      description:`*Explore and create content items for TV shows end to end in real time. Champions league content (the premium sport product for Europe)
-      *Produce and edit live broadcasts, perform real-time  decision making.
-      *Provided learning services & developed training programs for new employees.
-      *Executive TV Producer of the biggest sport event in Israel like F1 Jerusalem 2013, israeli football final cup 2013, 2014
-      *Responsibility for a 30-person broadcast team at the time of the event`
+      description:`Explore and create content items for TV shows end to end in real time. Champions league content (the premium sport product for Europe)
+      Produce and edit live broadcasts, perform real-time  decision making.
+      Provided learning services & developed training programs for new employees.
+      Executive TV Producer of the biggest sport event in Israel like F1 Jerusalem 2013, israeli football final cup 2013, 2014
+      Responsibility for a 30-person broadcast team at the time of the event`
 
     }
   ],

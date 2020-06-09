@@ -10,7 +10,7 @@ html {
 
 
 .experCard{
-    margin-bottom: 15px;
+    margin: 0 auto 15px;
 }
 
 
@@ -61,13 +61,6 @@ html {
     margin-top: 1rem;
 }
 
-
-
-#home-container{
-    background-color: white;
-    border: 1px solid black;
-   
-}
 
 
 @media (max-width: 720px) {
@@ -160,7 +153,7 @@ html {
 
 
 
-#head-line-content{
+.head-line-content{
     text-align: center;
 }
 

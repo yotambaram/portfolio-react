@@ -2,18 +2,26 @@ html {
   min-height: 100%;
 }
 
-
-
-
+body, 
+html,
+.app {
+  position: relative;
+  min-height: 100vh;   
+}
 
 #id-card-holder{
   text-align: center;
   display: flex;
   height: 33rem;
-  margin: 6% 0% 0% 2%;
+  margin: 4rem 0 0 1rem;
   
 }
 
+#all-content-older{
+  background-color: rgb(243, 243, 243);
+  
+  margin: 0 auto;
+}
 
 
 
@@ -89,9 +97,6 @@ html {
   
 }
 
-#containerID{
-  margin-top: 7%;
-}
 
 
 

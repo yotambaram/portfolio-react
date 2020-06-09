@@ -8,7 +8,8 @@ body {
 }
 
 #back-ground-color{
-  background-color: rgb(246, 246, 246);
+  background-color: rgb(236, 236, 236);
+  margin: 0 auto;
   height: 100%;
 }
 
