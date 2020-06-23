@@ -53,20 +53,20 @@ export const myInfo = {
   projects: [
     {
     id: 1,
-    name: "Find Tutor",
-    description:`A social network that enables a student user to look for a tutors/a tutor user look for a students, based on selected set of skills user is defining`,
+    name: "goTutor",
+    description:`A social network that enables a user to look for a tutors or be a tutor and look for a students, based on selected set of skills user is defining`,
     picture: `findtutor.JPG`,
     links: [
       {
-        link: "https://yoututor2020.herokuapp.com",
-        linkName: "Find A Tutor Web"
+        link: "https://gotutor.herokuapp.com",
+        linkName: "goTutor Web"
       },
       {
-        link:"https://github.com/OlgaSadova/FinalProjectBackEnd",
+        link:"https://github.com/yotambaram/go-tutor-front",
         linkName: "GitHub Frontend"
       },
       {
-        link:"https://yoututor2020.herokuapp.com",
+        link:"https://github.com/yotambaram/go-tutor-back",
         linkName: "GitHub Backend"
       }
     ]
