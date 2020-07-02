@@ -1,3 +1,4 @@
+//Fake DB
 export const myInfo = {
   info: {
     name: "Yotam Baram",
